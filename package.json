@@ -1,0 +1,26 @@
+{
+  "name": "backend-login-module",
+  "version": "1.0.0",
+  "description": "Nodejs and couchdb backend server",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "CouchDB",
+    "NodeMailer"
+  ],
+  "author": "Aditya V",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nano": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
